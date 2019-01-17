@@ -1,7 +1,11 @@
 # Data Visualization with Matplotlib Project
 
 
-**Matplotlib** is a Data Visualization library of Python.
+This project is all about Matplotlib, the basic data visualization tool of Python programming language. In this project,
+I have discussed Matplotlib object hierarchy, various plot types with Matplotlib and customization techniques associated with Matplotlib. 
+
+
+This project is divided into various sections based on its contents which are listed below:- 
 
 
 The table of contents of this project are as follows:-
