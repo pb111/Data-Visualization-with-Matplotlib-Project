@@ -254,7 +254,7 @@ I create the next three subplots using the fig.add_subplot() commands as follows
 The above command result in creation of subplots.
 
 
-[Diagrammatic representation of subplots](https://github.com/pb111/Data-Visualization-with-Matplotlib-Project/blob/master/Images/Subplots.png)
+![Diagrammatic representation of subplots](https://github.com/pb111/Data-Visualization-with-Matplotlib-Project/blob/master/Images/Subplots.png)
 
 
 ### Concise representation of Subplots
