@@ -282,18 +282,18 @@ to create four Subplots with grid(2, 2) in one figure object.
 Now, I will start producing plots. Here is the first example:-
 
 `plt.plot([1, 3, 2, 4] )`
+
 `plt.show( )`
 
 This code line is the actual plotting command. Only a list of values has been plotted that represent the vertical coordinates of the points to be plotted. Matplotlib will use an implicit horizontal values list, from 0 (the first value) to N-1 (where N is the number of items in the list).
 
 Also, we can explicitly specify both the lists as follows:- 
 
- x = np.arange(0.0, 6.0,  0.01) 
+ `x = np.arange(0.0, 6.0,  0.01)` 
 
- plt.plot(x, [xi**2 for xi in x]) 
+ `plt.plot(x, [xi**2 for xi in x])` 
 
-
-plt.show()
+`plt.show()`
 
 
 =================================================================================
