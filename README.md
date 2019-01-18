@@ -228,6 +228,7 @@ In Matplotlib, the **figure** (an instance of the class plt.Figure) is a single 
 
 
 =================================================================================
+
 ## 10.	Figure and Subplots
 
 Plots in Matplotlib reside within a Figure object. As described earlier, we can create a new figure with plt.figure() as follows:-
@@ -248,6 +249,12 @@ I create the next three subplots using the fig.add_subplot() commands as follows
 `ax3 = fig.add_subplot(2, 2, 3)`
 
 `ax4 = fig.add_subplot(2, 2, 4)`
+
+
+The above command result in creation of subplots.
+
+
+[Diagrammatic representation of subplots](https://github.com/pb111/Data-Visualization-with-Matplotlib-Project/blob/master/Images/Subplots.png)
 
 
 ### Concise representation of Subplots
