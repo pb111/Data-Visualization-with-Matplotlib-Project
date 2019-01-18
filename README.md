@@ -149,10 +149,21 @@ After this command (it needs to be done only once per kernel per session), any c
 
 =================================================================================
 
+
 ## 6.	 Matplotlib Object Hierarchy
 
-There is an Object Hierarchy within Matplotlib. In Matplotlib, a plot is a hierarchy of nested Python objects. A**hierarch** means that there is a tree-like structure of Matplotlib objects underlying each plot.
-A **Figure** object is the outermost container for a Matplotlib plot. The **Figure** object contain multiple **Axes** objects. So, the **Figure** is the final graphic that may contain one or more **Axes**. The **Axes** represent an individual plot.
+
+There is an Object Hierarchy within Matplotlib. In Matplotlib, a plot is a hierarchy of nested Python objects. A**hierarchy** means 
+that there is a tree-like structure of Matplotlib objects underlying each plot.
+
+
+A **Figure** object is the outermost container for a Matplotlib plot. The **Figure** object contain multiple **Axes** objects. 
+So, the **Figure** is the final graphic that may contain one or more **Axes**. 
+
+
+The **Axes** represent an individual plot.
+
+
 So, we can think of the **Figure** object as a box-like container containing one or more **Axes**. The **Axes** object contain smaller objects such as tick marks, lines, legends, title and text-boxes.
 
 
@@ -160,8 +171,12 @@ So, we can think of the **Figure** object as a box-like container containing one
 
 ## 7.	Matplotlib API Overview
 
- Matplotlib has two APIs to work with. A MATLAB-style state-based interface and a more powerful object-oriented (OO) interface. 
+ Matplotlib has two APIs to work with. 
+ 
+A **MATLAB-style state-based interface** and a more powerful **Object-Oriented (OO) interface**. 
+
 The former MATLAB-style state-based interface is called **pyplot interface** and the latter is called **Object-Oriented** interface.
+
 There is a third interface also called **pylab** interface. It merges pyplot (for plotting) and NumPy (for mathematical functions) together in an environment closer to MATLAB. This is considered bad practice nowadays. So, the use of **pylab** is strongly discouraged and hence, I will not discuss it any further.
 
 
