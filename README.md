@@ -768,7 +768,7 @@ All the available line styles are available in the following table:
 
 **Style abbreviation**  **Style**
 
--                    solid line
+-                   solid line
    
 --                   dashed line
    
