@@ -41,6 +41,7 @@ This project is divided into various sections based on contents which are listed
 33.	Control colours
 34.	Control line styles 
 35.	Summary
+36. References
 
 =================================================================================
 
@@ -788,3 +789,25 @@ In particular, I discuss Matplotlib object hierarchy, Matplotlib architecture, P
 Then, I discuss various types of plots like line plot, scatter plot, histogram, bar chart, pie chart, box plot, area chart and contour plot. 
 
 Finally, I discuss various customization techniques. I discuss how to customize the graphics with styles. I discuss how to add a grid and how to handle axes and ticks. I discuss how to add labels, title and legend. I discuss how to customize the charts with colours and line styles.
+
+
+=================================================================================
+
+## 36. References
+
+The ideas and concepts in this project are taken from the following websites and books:-
+
+i.	Matplotlib official documentation
+
+ii.	https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html
+
+iii.	Matplotlib for Python Developers by Sandro Tosi
+
+iv.	Matplotlib Plotting Cookbook by Alexandre Devert
+
+v.	Python Data Visualization Cookbook by Igor Milovanovic
+
+
+
+
+
