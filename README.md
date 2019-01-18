@@ -251,7 +251,7 @@ I create the next three subplots using the fig.add_subplot() commands as follows
 `ax4 = fig.add_subplot(2, 2, 4)`
 
 
-The above command result in creation of subplots.
+The above command result in creation of subplots as follows:-
 
 
 ![Diagrammatic representation of subplots](https://github.com/pb111/Data-Visualization-with-Matplotlib-Project/blob/master/Images/Subplots.png)
@@ -328,6 +328,7 @@ Multiline Plots mean plotting more than one plot on the same figure. We can plot
 There are different parts of a plot. These are title, legend, grid, axis and labels etc. These are denoted in the following figure:-
 
 
+![Parts of a Plot](https://github.com/pb111/Data-Visualization-with-Matplotlib-Project/blob/master/Images/Parts%20of%20a%20plot.png)
 
 
 =================================================================================
