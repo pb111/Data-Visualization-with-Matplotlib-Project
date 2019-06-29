@@ -1,8 +1,9 @@
  # Data Visualization with Matplotlib
 
-This project is all about Matplotlib, the basic data visualization tool of Python programming language. In this project, I have discussed Matplotlib object hierarchy, various plot types with Matplotlib and customization techniques associated with Matplotlib. 
-This project is divided into various sections based on contents which are listed below:- 
+This project is all about **Matplotlib**, the basic data visualization tool of Python programming language. In this project, I have discussed Matplotlib, its object hierarchy, various plot types with Matplotlib and customization techniques associated with Matplotlib. 
 
+
+This project is divided into various sections based on contents which are listed below:- 
 
 ## Table of Contents
 
@@ -43,7 +44,7 @@ This project is divided into various sections based on contents which are listed
 35.	Summary
 36. References
 
-=================================================================================
+================================================================================
 
 
 ## 1.	Introduction
