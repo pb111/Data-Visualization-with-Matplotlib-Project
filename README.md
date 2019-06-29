@@ -2,6 +2,7 @@
 
 This project is all about **Matplotlib**, the basic data visualization tool of Python programming language. In this project, I have discussed Matplotlib, its object hierarchy, various plot types with Matplotlib and customization techniques associated with Matplotlib. 
 
+===============================================================================
 
 This project is divided into various sections based on contents which are listed below:- 
 
@@ -57,6 +58,7 @@ In this project, I shed some light on Matplotlib, which is the basic data visual
 
 ===============================================================================
 
+
 ## 2.	Overview of Python Data Visualization Tools
 
 
@@ -81,8 +83,7 @@ Python is the preferred language of choice for data scientists. Python have mult
 In the following sections, I discuss Matplotlib as the data visualization tool. 
 
 
-=================================================================================
-
+===============================================================================
 
 ## 3. Introduction to Matplotlib
 
@@ -92,9 +93,7 @@ In the following sections, I discuss Matplotlib as the data visualization tool.
 
 The project **Matplotlib** was started by John Hunter in 2002. Matplotlib was originally started to visualize Electrocorticography (ECoG) data of epilepsy patients during post-doctoral research in Neurobiology. The open-source tool Matplotlib emerged as the most widely used plotting library for the Python programming language. It was used for data visualization during landing of the Phoenix spacecraft in 2008.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 4.	Import Matplotlib
 
@@ -116,8 +115,7 @@ To make things even simpler, we will use standard shorthand for Matplotlib impor
 From now onwards, I will refer matplotlib.pyplot as plt.
 
 
-=================================================================================
-
+===============================================================================
 
 ## 5.	 Displaying Plots in Matplotlib
 
@@ -148,9 +146,7 @@ Interactive plotting within a Jupyter Notebook can be done with the **%matplotli
 
 After this command (it needs to be done only once per kernel per session), any cell within the notebook that creates a plot will embed a PNG image of the graphic.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 6.	 Matplotlib Object Hierarchy
 
@@ -169,7 +165,7 @@ The **Axes** represent an individual plot.
 So, we can think of the **Figure** object as a box-like container containing one or more **Axes**. The **Axes** object contain smaller objects such as tick marks, lines, legends, title and text-boxes.
 
 
-=================================================================================
+===============================================================================
 
 ## 7.	Matplotlib API Overview
 
@@ -181,9 +177,7 @@ The former MATLAB-style state-based interface is called **pyplot interface** and
 
 There is a third interface also called **pylab** interface. It merges pyplot (for plotting) and NumPy (for mathematical functions) together in an environment closer to MATLAB. This is considered bad practice nowadays. So, the use of **pylab** is strongly discouraged and hence, I will not discuss it any further.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 8.	Pyplot API 
 
@@ -202,9 +196,7 @@ We can get a reference to the current figure and axes using the following comman
 
 This is really helpful for interactive plotting, because we can issue a command and see the result immediately. But, it is not suitable for more complicated cases. For these cases, we have another interface called **Object-Oriented** interface, described later.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 9.	Object-Oriented API
 
@@ -243,10 +235,9 @@ I start by creating a figure and an axes. A figure and axes can be created as fo
 
 In Matplotlib, the **figure** (an instance of the class plt.Figure) is a single container that contains all the objects representing axes, graphics, text and labels. The **axes** (an instance of the class plt.Axes) is a bounding box with ticks and labels. It will contain the plot elements that make up the visualization. I have used the variable name fig to refer to a figure instance, and ax to refer to an axes instance or group of axes instances.
 
+===============================================================================
 
-=================================================================================
-
-## 10.	Figure and Subplots
+## 10.	Figures and Subplots
 
 Plots in Matplotlib reside within a Figure object. As described earlier, we can create a new figure with plt.figure() as follows:-
 
@@ -299,7 +290,7 @@ We can use
 to create four Subplots with grid(2, 2) in one figure object.
 
 
-=================================================================================
+===============================================================================
 
 ## 11.	First plot with Matplotlib
 
@@ -319,8 +310,7 @@ Also, we can explicitly specify both the lists as follows:-
 
 `plt.show()`
 
-
-=================================================================================
+===============================================================================
 
 ## 12.	Multiline Plots
 
@@ -336,9 +326,7 @@ Multiline Plots mean plotting more than one plot on the same figure. We can plot
 
 `plt.show()`
 
-
-=================================================================================
-
+===============================================================================
 
 ## 13.	Parts of a Plot
 
@@ -348,7 +336,7 @@ There are different parts of a plot. These are title, legend, grid, axis and lab
 ![Parts of a Plot](https://github.com/pb111/Data-Visualization-with-Matplotlib-Project/blob/master/Images/Parts%20of%20a%20plot.png)
 
 
-=================================================================================
+===============================================================================
 
 
 ## 14.	Saving the Plot
@@ -367,8 +355,7 @@ In **savefig()** command, the file format is inferred from the extension of the 
 
 `fig.canvas.get_supported_filetypes()` 
 
-=================================================================================
-
+===============================================================================
 
 ## 15.	Line Plot
 
@@ -390,8 +377,7 @@ Similarly, if we want to create a single figure with multiple lines, we can call
 
 `plt.plot(x6, np.cos(x6), ‘r-‘)`
 
-=================================================================================
-
+===============================================================================
 
 ## 16.	Scatter Plot
 
@@ -432,7 +418,7 @@ But for larger datasets, plt.plot() function is more efficient than plt.scatter(
 
 So, for large datasets, the difference between plt.plot() and plt.scatter() functions can lead to vastly different performance.  Hence, plt.plot() function should be preferred over plt.scatter() function for large datasets.
 
-=================================================================================
+===============================================================================
 
 ## 17.	Histogram
 
@@ -496,8 +482,7 @@ Just as we create histograms in one dimension, we can also create histograms in 
 
 `cb.set_label('counts in bin')`
 
-=================================================================================
-
+===============================================================================
 
 ## 18.	Bar Chart
 
@@ -520,7 +505,7 @@ By default, a bar will have a thickness of 0.8 units. If we draw a bar of unit l
 
 `plt.show()` 
 
-=================================================================================
+===============================================================================
 
 ## 19.	Horizontal Bar Chart
 
@@ -532,7 +517,7 @@ We can produce Horizontal Bar Chart using the **barh()** function. It is the str
 
 `plt.show()` 
 
-=================================================================================
+===============================================================================
 
 ## 20.	Error Bar Chart
 
@@ -553,8 +538,7 @@ the positive error. So error bar is symmetrical to the point where it is drawn.
 There is another type of error bar, which is **asymmetrical error bar**. To draw **asymmetrical error bars**, we have to pass two lists(or a 2D array) of values to yerr and/or xerr - the first list is for negative errors while the second list is for positive 
 errors.
 
-=================================================================================
-
+===============================================================================
 
 ## 21.	Stacked Bar Chart
 
@@ -562,8 +546,7 @@ errors.
 We can draw stacked bar chart by using a special parameter called **bottom** from the plt.bar() function.
 
 
-=================================================================================
-
+===============================================================================
 
 ## 22. Pie Chart
 
@@ -577,22 +560,20 @@ Matplotlib provides the **pie()** function to plot pie charts from an array X. W
 
 We can plot an exploded Pie chart with the addition of keyword argument **explode**. It is an array of the same length as that of X. Each of its values specify the radius fraction with which to offset the wedge from the center of the pie.
 
-=================================================================================
-
+===============================================================================
 
 ## 23. Boxplot
 
 Boxplot allows us to compare distributions of values by showing the median, quartiles, maximum and minimum of a set of values. We can plot a boxplot with the **boxplot()** function.
 
-
-=================================================================================
+===============================================================================
 
 ## 24. Area Chart
 
 An **Area Chart** is very similar to a **Line Chart**. The area between the x-axis and the line is filled in with color or shading. 
 It represents the evolution of a numerical variable following another numerical variable.
 
-=================================================================================
+===============================================================================
 
 ## 25. Contour Plot
 
@@ -608,16 +589,13 @@ The density of the lines indicates the **slope** of the function. The **gradient
 
 A **Contour plot** can be created with the **plt.contour()** function.
 
-
-=================================================================================
-
+===============================================================================
 
 ## 26. Styles with Matplotlib Plots
 
 The Matplotlib version 1.4 which was released in August 2014 added a very convenient `style` module. It includes a number of  new default stylesheets, as well as the ability to create and package own styles.
 
 We can view the list of all available styles by the following command.
-
 
 `print(plt.style.availabe)`
 
@@ -627,7 +605,7 @@ plt.style.use('seaborn-bright')
 
 I have set the seaborn-bright style for plots. So, the plot uses the seaborn-bright Matplotlib style for plots.
 
-=================================================================================
+===============================================================================
 
 ## 27. Adding a grid
 
@@ -636,7 +614,7 @@ In some cases, the background of a plot was completely blank. We can get more in
 
 We can add a grid to the plot by calling the **grid()** function. It takes one parameter, a Boolean value, to enable(if True) or disable(if False) the grid.
 
-=================================================================================
+===============================================================================
 
 ## 28. Handling axes
 
@@ -652,7 +630,7 @@ The list of four values are the keyword arguments [xmin, xmax, ymin, ymax] allow
 
 We can control the limits for each axis separately using the `xlim()` and `ylim()` functions.
 
-=================================================================================
+===============================================================================
 
 ## 29. Handling X and Y ticks
 
@@ -668,21 +646,19 @@ We can pass arguments(in the form of lists) to the ticks functions. The argument
 
 2. Labels to draw at these locations.
 
-=================================================================================
+===============================================================================
 
 ## 30. Adding labels
 
 Another important piece of information to add to a plot is the axes labels, since they specify the type of data we are plotting.
 
-=================================================================================
-
+===============================================================================
 
 ## 31. Adding a title
 
-
 The title of a plot describes about the plot. Matplotlib provides a simple function **title()** to add a title to an image.  
 
-=================================================================================
+===============================================================================
 
 ## 32. Adding a legend
 
@@ -723,7 +699,7 @@ ax.legend(loc=9)  # upper center
 
 ax.legend(loc=10) # center
 
-=================================================================================
+===============================================================================
 
 ## 33. Control colours
 
@@ -759,8 +735,7 @@ There are several ways to specify colours, other than by colour abbreviations:
 
 •	Grayscale intensity, in string format such as ‘0.7’.
 
-
-=================================================================================
+===============================================================================
 
 ## 34. Control line styles
 
@@ -778,8 +753,7 @@ All the available line styles are available in the following table:
    
 :                    dotted line
 
-
-=================================================================================
+===============================================================================
 
 ## 35. Summary
 
@@ -791,8 +765,7 @@ Then, I discuss various types of plots like line plot, scatter plot, histogram, 
 
 Finally, I discuss various customization techniques. I discuss how to customize the graphics with styles. I discuss how to add a grid and how to handle axes and ticks. I discuss how to add labels, title and legend. I discuss how to customize the charts with colours and line styles.
 
-
-=================================================================================
+===============================================================================
 
 ## 36. References
 
