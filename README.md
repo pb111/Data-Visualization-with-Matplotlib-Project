@@ -44,7 +44,7 @@ This project is divided into various sections based on contents which are listed
 35.	Summary
 36. References
 
-================================================================================
+===============================================================================
 
 
 ## 1.	Introduction
@@ -55,7 +55,7 @@ When we want to convey some information to others, there are several ways to do 
 In this project, I shed some light on Matplotlib, which is the basic data visualization tool of Python programming language. Python has different data visualization tools available which are suitable for different purposes. First of all, I will list these data visualization tools and then I will discuss Matplotlib.
 
 
-=================================================================================
+===============================================================================
 
 ## 2.	Overview of Python Data Visualization Tools
 
